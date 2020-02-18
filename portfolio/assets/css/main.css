@@ -7264,6 +7264,9 @@ input, select, textarea {
 	.wrapper.style2 {
 		padding: 7rem;
 		background-color: #eeeeee;
+		
+			display: none;
+			
 	}
 
 		.wrapper.style2 > .inner {
@@ -7628,6 +7631,7 @@ input, select, textarea {
 		justify-content: center;
 		margin: 3rem 0;
 		position: relative;
+		display: none;
 	}
 
 		.items.style1 > * {
@@ -7857,6 +7861,7 @@ input, select, textarea {
 		position: relative;
 		border: solid 1px;
 		border-radius: 4px;
+		
 	}
 
 		.items.style2 > * {
@@ -8067,6 +8072,7 @@ input, select, textarea {
 		justify-content: center;
 		margin: 3rem 0;
 		position: relative;
+		display: none;
 	}
 
 		.items.style3 > * {
@@ -8173,7 +8179,7 @@ input, select, textarea {
 		.items.style2 > * {
 			border-color: rgba(0, 0, 0, 0.2);
 		}
-
+		
 /* Index */
 
 	.index > * {
@@ -8601,3 +8607,4 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+		
